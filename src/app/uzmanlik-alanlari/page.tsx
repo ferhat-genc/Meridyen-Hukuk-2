@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 export default function PracticeAreasPage() {
   return (
     <>
-      <section className="bg-navy-950 text-white">
-        <div className="container-content py-20 sm:py-24">
+      <section className="bg-navy-gradient text-white">
+        <div className="container-content pb-20 pt-40 sm:pb-24 sm:pt-48">
           <p className="eyebrow">Hizmetlerimiz</p>
-          <h1 className="mt-4 font-serif text-4xl font-semibold sm:text-5xl">
+          <h1 className="mt-4 text-4xl font-medium tracking-tight sm:text-5xl">
             Uzmanlık Alanlarımız
           </h1>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-ink-200">
@@ -45,7 +45,7 @@ export default function PracticeAreasPage() {
                 />
               </div>
               <div>
-                <h2 className="font-serif text-2xl font-semibold text-navy-900 sm:text-3xl">
+                <h2 className="text-2xl font-medium tracking-tight text-navy-900 sm:text-3xl">
                   {area.title}
                 </h2>
                 <p className="mt-4 text-base leading-relaxed text-ink-600">{area.description}</p>

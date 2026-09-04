@@ -1,7 +1,7 @@
 export const firm = {
   name: "Meridyen Hukuk Bürosu",
   shortName: "Meridyen Hukuk",
-  slogan: "Güvenle temsil ediyoruz.",
+  slogan: "Bağımsız. Sonuç odaklı. Güvenilir.",
   phoneDisplay: "0212 555 01 23",
   phoneDial: "+902125550123",
   whatsappNumber: "902125550123",
@@ -23,11 +23,20 @@ export const developer = {
     "Merhaba, hukuk büromuz için böyle bir web sitesi tasarımı hakkında bilgi almak istiyorum.",
 };
 
+export const heroTaglines = [
+  "Bağımsız ve sonuç odaklı bir hukuk bürosu olarak İstanbul'da iş dünyasının yanındayız.",
+  "Aile, ticaret, iş, ceza, gayrimenkul ve miras hukukunda derinlemesine uzmanlık.",
+  "Şeffaf iletişim ve somut stratejiyle, her dosyaya aynı titizlikle yaklaşıyoruz.",
+  "Müvekkillerimizin hedefleriyle uyumlu, uygulanabilir hukuki çözümler sunuyoruz.",
+];
+
 export const stats = [
   { value: "18+", label: "Yıllık Deneyim" },
+  { value: "6", label: "Ortak Avukat" },
+  { value: "24", label: "Ekip Üyesi" },
+  { value: "6", label: "Çalışma Alanı" },
   { value: "1.200+", label: "Sonuçlanan Dosya" },
   { value: "%92", label: "Müvekkil Memnuniyeti" },
-  { value: "6", label: "Uzmanlık Alanı" },
 ];
 
 export type PracticeArea = {

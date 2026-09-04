@@ -1,7 +1,13 @@
-# Meridyen Hukuk Bürosu — Demo Web Sitesi
+# Meridyen Hukuk Bürosu — Demo Web Sitesi (Varyasyon 2)
 
 Bu proje, İstanbul'daki küçük/orta ölçekli hukuk bürolarına örnek/teklif sunumu amacıyla
 hazırlanmış **tamamen kurgusal bir demo web sitesidir**.
+
+Bu, aynı kurgusal büronün **ikinci tasarım varyasyonudur**. Birinci varyasyon lacivert/altın
+tonlarında klasik-kurumsal bir dil kullanırken, bu varyasyon büyük ölçekli uluslararası hukuk
+bürolarında (örn. Moroğlu Arseven) görülen editorial/lüks tasarım dilinden ilham alır: tek bir
+bordo/vişne ton, tek bir grotesk font ailesi (Space Grotesk), animasyonlu soyut arka planlı hero
+ve tam ekran overlay navigasyon menüsü.
 
 > ⚠️ **Önemli:** "Meridyen Hukuk Bürosu" ismi, adresi, telefon numarası, avukat kadrosu,
 > müvekkil sayıları ve tüm makale içerikleri **hayalidir**. Gerçek bir hukuk bürosunu,

@@ -37,13 +37,13 @@ export default function ArticleDetailPage({ params }: { params: { slug: string }
 
   return (
     <>
-      <section className="bg-navy-950 text-white">
-        <div className="container-content py-16 sm:py-20">
+      <section className="bg-navy-gradient text-white">
+        <div className="container-content pb-16 pt-40 sm:pb-20 sm:pt-48">
           <Link href="/makaleler" className="text-sm text-gold-400 hover:text-gold-300">
             ← Tüm Makaleler
           </Link>
           <p className="eyebrow mt-6">{article.category}</p>
-          <h1 className="mt-4 max-w-3xl font-serif text-3xl font-semibold sm:text-4xl lg:text-5xl">
+          <h1 className="mt-4 max-w-3xl text-3xl font-medium tracking-tight sm:text-4xl lg:text-5xl">
             {article.title}
           </h1>
           <p className="mt-5 text-sm text-ink-300">
